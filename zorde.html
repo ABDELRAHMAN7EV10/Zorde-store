@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zorde store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            margin-top: 20px;
+        }
+        .product-section, .gallery, .contact-section {
+            width: 90%;
+            max-width: 600px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product-section img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+        }
+        .contact-section label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-section input, .contact-section textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-section button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Zorde store</h1>
+
+    <!-- Product Section -->
+    <section class="product-section">
+        <img src="5.jpg" alt="Product Image">
+        <h2>مساحة التويست الشقية</h2>
+        <p>المميزات
+            بتتحرك 360 درجة علشان توصل لكل حتة في البيت.
+            الرأس بتاعتها بتتقفل و تعصر القماشة بسهولة من غير جردل وقت الإستخدام.
+            مصنوعة من القماش المايكروفيبر اللي بيمتص المايه بسهولة.
+            المايكروفيبر مصنوع من ألياف ناعمة ورقيقة وده بيخلي المساحة مناسبة لجميع أنواع الأرضيات.
+            هتساعدك في أنك تتخلصي من الغبار والأتربة.
+            سهلة التنضيف، هتقدري تشيلي قطعة القماشة اللي فيها و تغسليها.
+            سهلة التخزين، اليد فيها مكان علشان تتعلق منه.
+            الخامة بتاعتها قوية و تستحمل.
+            هتقدرى تستخدميها و هى مبلولة أو ناشفة.
+            الوصف
+            الخامة:- بلاستيك + ستانليس ستيل.
+            الطول:- 48 سم
+            العرض مفرودة:- 13.5 سم.
+            العرض مش مفرودة:- 4.5 سم.
+            محتوى العبوة
+            1× مساحة.
+            2× يد بقطعة بلاستيك.</p>
+        <p><strong>Price:</strong> 370ج</p>
+        <p><strong>شحن مجاني لحد باب البيت</strong>
+            <p><strong>لجميع محفظات مصر</strong>
+    
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>product image </h2>
+        <img src="1.jpg" alt="">
+        <img src="2.jpg" alt="">
+        <img src="3.jpg" alt="">
+        <img src="4.jpg" alt="">
+        <img src="5.jpg" alt="">
+        <img src=".jpg"  alt="">
+ 
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2>Order information</h2>
+        <form action="mailto:zorde00@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit">submit order</button>
+        </form>
+    </section>
+
+</body>
+</html>
